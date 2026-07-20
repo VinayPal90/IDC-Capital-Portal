@@ -11,13 +11,11 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('all');
 
   // Handle API request to backend calculator route
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-  
   const handleCalculate = async (e) => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await axios.post('${API_URL}/api/calculate-deal', {
+      const response = await axios.post('https://idc-capital-portal.onrender.com/api/calculate-deal', {
         loanAmount: Number(loanAmount),
         tenureMonths: Number(tenure)
       });
