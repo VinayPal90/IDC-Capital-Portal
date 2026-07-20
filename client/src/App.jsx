@@ -10,7 +10,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState('all');
 
-  // Handle API request to backend calculator route
+  // Handle API request to backend calculator route (Direct Render URL to avoid any environment variable caching issues)
   const handleCalculate = async (e) => {
     e.preventDefault();
     setLoading(true);
