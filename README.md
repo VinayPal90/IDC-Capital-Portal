@@ -31,7 +31,6 @@ The project focuses on building a clean, scalable, and user-friendly application
 
 - React.js
 - React Router DOM
-- JavaScript (ES6+)
 - Tailwind CSS
 - Axios
 
