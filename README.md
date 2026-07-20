@@ -68,7 +68,7 @@ The project focuses on building a clean, scalable, and user-friendly application
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/idc-capital-portal.git
+git clone https://github.com/VinayPal90/IDC-Capital-Portal.git
 ```
 
 ---
